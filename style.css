@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary{
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-itens{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.list-itens{
+    display: flex;
+    list-style: none;
+}
+
+.list-item{
+    padding: 0 20px;
+    color: white;
+}
+
+.list-item:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+.showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url(img/showcase.webp) center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2{
+    font-size: 5rem;
+}
+
+.p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.footer {
+    background: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.footer-menu{
+    margin: 0px 40px;
+    list-style: none;
+}
+
+.footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.footer-menu-item{
+    margin: 25px 0;
+}
+
+
+.socials{
+    display: flex;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.4rem;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-info-item{
+    display: flex;
+    list-style: none;
+}
+
+.country {
+    display: flex;
+}
+
